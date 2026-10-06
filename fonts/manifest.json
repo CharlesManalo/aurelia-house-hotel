@@ -1,0 +1,52 @@
+{
+  "provider": "Google Fonts",
+  "subset": "latin",
+  "source_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Playfair+Display:wght@400..600&display=swap",
+  "requested_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+  "verified_on": "2026-10-06",
+  "original_css": "original-google-fonts.css",
+  "fonts": [
+    {
+      "family": "Inter",
+      "font_weight": "400 700",
+      "font_style": "normal",
+      "font_display": "swap",
+      "filename": "inter-latin.woff2",
+      "format": "woff2",
+      "subset": "latin",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "css_source_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Playfair+Display:wght@400..600&display=swap",
+      "bytes": 48256,
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "family": "Playfair Display",
+      "font_weight": "400 600",
+      "font_style": "normal",
+      "font_display": "swap",
+      "filename": "playfair-display-latin.woff2",
+      "format": "woff2",
+      "subset": "latin",
+      "source_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2",
+      "css_source_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Playfair+Display:wght@400..600&display=swap",
+      "bytes": 38404,
+      "sha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2"
+    }
+  ],
+  "licenses": [
+    {
+      "family": "Inter",
+      "filename": "inter-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "copyright": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
+    },
+    {
+      "family": "Playfair Display",
+      "filename": "playfairdisplay-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "copyright": "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\""
+    }
+  ]
+}
