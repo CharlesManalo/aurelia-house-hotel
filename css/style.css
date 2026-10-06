@@ -115,3 +115,24 @@
 .compact-navigation.highlands .site-nav{background:var(--primary);color:var(--paper)}
 
 .card.recommended{outline:3px solid var(--accent);outline-offset:5px}
+
+/* Brand-specific footer redesign */
+.site-footer.footer-redesign{padding:0;color:inherit}
+.footer-redesign a{text-decoration:none;transition:color .2s,background .2s}
+.footer-redesign a:hover{text-decoration:underline;text-underline-offset:5px}
+.footer-redesign a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.footer-redesign .footer-shell{width:min(1180px,calc(100% - 4rem));margin:auto}
+.footer-redesign .footer-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.18em;font-weight:700;margin:0 0 1rem}
+.footer-redesign .footer-nav{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem}
+.footer-redesign .footer-nav a{display:inline-flex;align-items:center;min-height:44px}
+.footer-redesign .footer-fine{font-size:.78rem;opacity:.8;line-height:1.6}
+.footer-redesign .footer-end{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:1.4rem 0}
+.footer-redesign .footer-end p{margin:0}
+@media(max-width:767px){.footer-redesign .footer-shell{width:calc(100% - 2rem)}.footer-redesign .footer-end{flex-direction:column;gap:.4rem}}
+
+.site-footer.aurelia-footer{background:#f1ecdf;color:#172641;border-top:1px solid #b9a67c}
+.aurelia-signature{text-align:center;padding:3.7rem 0 2.6rem}.aurelia-wordmark{font-family:var(--heading-font);font-size:clamp(2.7rem,5vw,4.9rem);letter-spacing:-.04em;line-height:1.2;display:inline-block}.aurelia-signature>p:last-child{font-size:.9rem;color:#665c4d;margin:.8rem 0 0}
+.aurelia-columns{display:grid;grid-template-columns:1fr 1.4fr 1fr;border-block:1px solid #b9a67c80;padding:2.5rem 0;text-align:center}.aurelia-columns>div{padding:0 1.5rem}.aurelia-columns nav{display:flex;flex-direction:column;align-items:center;gap:.2rem}.aurelia-columns nav a{min-height:44px;display:flex;align-items:center;font-size:.9rem}.aurelia-city{border-inline:1px solid #b9a67c80}.aurelia-city p:not(.footer-label){font-family:var(--heading-font);font-size:1.5rem;line-height:1.45;margin:0 0 1rem}.aurelia-city>a{display:inline-flex;min-height:44px;align-items:center;gap:1rem;font-size:.9rem;color:#6e5122}
+@media(max-width:767px){.aurelia-signature{padding:3rem 0 2rem}.aurelia-columns{grid-template-columns:1fr 1fr;gap:2rem 0;padding:2rem 0}.aurelia-city{grid-column:1/-1;grid-row:2;border:0;border-top:1px solid #b9a67c80;padding-top:2rem!important}.aurelia-columns>div{padding:0 .4rem}.aurelia-footer .footer-end{text-align:center;align-items:center}}
+
+.site-footer.footer-redesign a.aurelia-wordmark{font-size:clamp(2.7rem,5vw,4.9rem)}.site-footer.footer-redesign .aurelia-city p:not(.footer-label){font-size:1.5rem}
