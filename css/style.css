@@ -136,3 +136,10 @@
 @media(max-width:767px){.aurelia-signature{padding:3rem 0 2rem}.aurelia-columns{grid-template-columns:1fr 1fr;gap:2rem 0;padding:2rem 0}.aurelia-city{grid-column:1/-1;grid-row:2;border:0;border-top:1px solid #b9a67c80;padding-top:2rem!important}.aurelia-columns>div{padding:0 .4rem}.aurelia-footer .footer-end{text-align:center;align-items:center}}
 
 .site-footer.footer-redesign a.aurelia-wordmark{font-size:clamp(2.7rem,5vw,4.9rem)}.site-footer.footer-redesign .aurelia-city p:not(.footer-label){font-size:1.5rem}
+
+/* Developer attribution */
+.footer-redesign .developer-credit{border-top:1px solid currentColor;padding:1.1rem 0 1.5rem;opacity:.85}
+.footer-redesign .developer-credit p{font-size:.8rem;margin:0;line-height:1.7}
+.footer-redesign .developer-credit strong{font-weight:600}
+.footer-redesign .developer-credit .developer-strand{display:block}
+.aurelia-footer .developer-credit{text-align:center}
